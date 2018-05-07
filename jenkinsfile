@@ -1,0 +1,23 @@
+pipeline { 
+    agent any 
+    stages {
+       
+       stage('Build') {
+            steps {
+                echo 'Build'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'deploy'
+            }
+        }
+        stage('release') {
+            steps {
+                echo 'release'
+            }
+        }
+        
+    }
+}
+© 2018 GitHu
