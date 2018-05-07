@@ -9,12 +9,17 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'deploy'
+                echo 'Deploy'
             }
         }
-        stage('release') {
+        stage('Deploy') {
             steps {
-                echo 'release'
+                echo 'Deploy'
+            }
+        }
+        stage('Release') {
+            steps {
+                echo 'Release'
             }
         }
         
